@@ -14,13 +14,27 @@
 			<ul>				
 				<li class="leftnav"><a href="Registrering.php">Registrering</a></li>
 				<li class="leftnav"><a href="Timeplan.php">Timeplan</a></li>
+				
+				
+				<div class="rightnav">
+				 <div class="dropdown">
+				  <button class="dropbtn" onclick="myFunction()">Om oss
+					<i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-content" id="myDropdown">
+					<a href="#">Trenere</a>
+					<a href="#">Om stiler</a>
+					<a href="#">Grunnlegger</a>
+					<a href="#">Partier</a>
+				  </div>
+				  </div>
+				</div>
 				<li class="rightnav"><a href="">Konkuranser</a></li>
-				<li class="rightnav"><a href="">Om oss</a></li>
 			</ul>
 		</nav>
 		<div class="logo"><img src="src/Logo.jpg" alt="logo"></div>
-
 	</div>
+		
 	</header>
 	
 	<div class="Velkommen">
@@ -28,5 +42,24 @@
 		<h2>Arnis Eskrima Kali</h2>
 		<img src="src/arrowsWhite.png" alt="arrows">
 	</div>
+	
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+	
 </body>
 </html>

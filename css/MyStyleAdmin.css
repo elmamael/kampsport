@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Style Login*/
+
+body{
+	background-image: url(../src/Yellow.jpg)
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	color: white;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.bg-loginn
+{
+	background-image: url(../src/PinkBackground.jpg);
+	
+}
+
+.table-loginn
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    border-collapse: collapse;
+    width: 60%;
+	background-color: #333;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15vh;
+	color: #F3F3F3;	
+	height: 100%;
+	/*height: 100%;*/
+}
+
+.table-loginn td, .table-loginn th 
+{
+    border: 30px none #ddd;
+    padding: 8px;
+	font-size: 1vw;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;
+	/*font-size: ;
+	font-size: 9vw;*/
+	height: auto;
+	/*text-align: center;*/
+	height: 5%;
+}
+.table-loginn th 
+{
+	font-size: 5vw;
+	height: 31%;
+}
+
+.table-loginn td div
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	/*background-color: red;*/
+	font-size: 4vh;
+}
+
+.table-loginn td div input
+{
+	
+	height: 10vh;
+	font-size: 4vh;
+	
+}
+
+.main
+{
+	height: 80vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+.main POST
+{
+	height: 100%;
+	
+}
+
+input[type=submit] {
+ 	color: #111;
+	width: 30%;
+	border-radius: 20px;
+	border-style: none;
+}
+
+input[type=submit]:hover {
+ 	background-color: #FC839D;
+}
+
+input[type=button] {
+ 	color: #111;
+	width: 30%;
+	border-radius: 20px;
+	border-style: none;
+}
+
+input[type=button]:hover {
+ 	background-color: #FC839D;
+}
+
+input[type=text] {
+	width: 100%;
+	border-radius: 5px;
+	border-style: none;
+	padding-left: 3vw;
+}
+input[type=password] {
+	width: 100%;
+	border-radius: 5px;
+	border-style: none;
+	padding-left: 3vw;
+}
+
+input[type=number] {
+	width: 100%;
+	border-radius: 5px;
+	border-style: none;
+	padding-left: 3vw;
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+	font-size: 3vh;
+	color: #D5D5D5;
+}
+
+
+
+.right
+{
+	float: right;
+	
+}

@@ -20,11 +20,13 @@
 				<li class="rightnav"><a href="">Om oss</a></li>
 			</ul>
 		</nav>
-		<div class="logo"><img src="src/Logo.jpg" alt="logo"></div>
-
+		<div class="logo"><a href="indexH.html"> <img src="src/Logo.jpg" alt="logo"></a></div>
 	</div>
+		
 	</header>
 	
+	
+	<h1>Registrer deg her!</h1>
 	
 	
 	<div>
