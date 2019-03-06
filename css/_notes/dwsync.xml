@@ -4,6 +4,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="131963460782478009" remote="131963460790000000" Dst="1" />
+<<<<<<< HEAD
 <file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="131963469272156395" remote="131963469270000000" Dst="1" />
 </dwsync>
 >>>>>>> a5008b546990cb1475d86c0488c48b7238c89ebc
+=======
+<file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="131963471302248748" remote="131963471310000000" Dst="1" />
+</dwsync>
+>>>>>>> e8c45baa5abffc069620692888110df56930eab4
