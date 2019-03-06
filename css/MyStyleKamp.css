@@ -48,6 +48,7 @@ body {
   background-image: url(../src/DocePares.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  
 }
 
 .navbar ul {
@@ -60,6 +61,7 @@ body {
 	position: fixed;
 	width: 100%;
 	top: 0;
+	z-index: 1;
  
 }
 
@@ -98,7 +100,8 @@ body {
 	height: auto;
 	border-radius: 50%;
 	position: fixed;
-	margin: -30vh 45vw;
+	margin: -52vh 45vw;
+	z-index: 1;
 }
 
 .Velkommen{
