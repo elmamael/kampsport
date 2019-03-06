@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<link rel="stylesheet" href="css/MyStyleAdmin.css">
 <meta charset="utf-8">
 <title>Untitled Document</title>
 </head>
@@ -13,7 +14,7 @@
 	
 	<table class="table-loginn">
 			<form method="POST">
-				<tr><th>Login</th></tr>
+				<tr><th>Login Administrasjon</th></tr>
 				<tr><td><div>Brukernavn:</div></td></tr>
 				<tr><td><div><input type="text" name="brukernavn" placeholder="  Sett inn brukernavn"><br></div></td></tr>
 				<tr><td><div>Passord:</div></td></tr>
