@@ -44,12 +44,12 @@ table {
 
 
 /*Våre koder*/
-body {
+/*body {
   background-image: url(../src/DocePares.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   
-}
+}*/
 
 .navbar ul {
 	list-style-type: none;
@@ -136,4 +136,8 @@ body {
 	align-items: center;
 	margin-top: 5vh;
 }
+
+/*Timeplan*/
+
+
 
