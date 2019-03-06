@@ -23,7 +23,7 @@
 	</header>
 	<!-- Timeplan -->
 	
-	<br />
+	
 
 	<div class="timeline">
 		<ul>
