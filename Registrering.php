@@ -8,33 +8,7 @@
 
 <body>
 	
-	<?php
-	/**
-	*Setup info:
-	*/
-	/*if(isset($_POST["submit"]))*/
-	{
-		$server = "elevweb.akershus-fk.no";
-		$user = "Toel1108";
-		$password = "1234EE";
-		$databaseName = "Toel1108_kampsport";
-
-		$connection = new MySQLi($server, $user, $password, $databaseName);
-		if($connection -> connect_error)
-		{
-			die("Connection failed ".$connection->connect_error);
-		}
-		
-		/*
-		else
-		{
-			echo("Connection Successfull<br>");
-		}
-		
-		$connection->set_charset("utf8");
-		*/
-	}
-		?>
+	
 	
 	<header>	
 	<div class="navbar">
@@ -50,5 +24,25 @@
 
 	</div>
 	</header>
+	
+	
+	
+	<div>
+		<table class="table-leggtil">
+			<form method="POST">
+				<tr><td><div>Fornavn:</div></td></tr>
+				<tr><td><div><input type="text" name="fornavn" placeholder="Ola"><br></div></td></tr>
+				
+				<tr><td><div>Etternavn:</div></td></tr>
+				<tr><td><div><input type="text" name="etternavn" placeholder="Nordmann"><br></div></td></tr>
+				
+				<tr><td><div>Kjønn:</div></td></tr>
+				<tr><td><div><input type="text" name="etternavn" placeholder="Nordmann"><br></div></td></tr>
+				
+				<tr><td><div><input type="submit" name="leggtil" value="Registrer elev" onclick="window.location.href='HPforside.php'"></div></td></tr>
+				
+			</form>
+		</table>
+	</div>
 </body>
 </html>
