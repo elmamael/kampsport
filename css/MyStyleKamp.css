@@ -58,7 +58,7 @@ h1{
 
 .navbar ul {
 	list-style-type: none;
-	margin: 0 0 10vh;
+	margin: 0;
 	padding: 0;
 	overflow: visible;
 	background-color: #0D0D0D;
@@ -203,5 +203,40 @@ h1{
 	margin: 20vh auto;
 }
 
+
+
+
+/*footer*/
+
+footer{
+	background-color: #333;
+	color: white;
+	padding: 5vw;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+	margin: 6vh auto 0 9vw;
+	padding-top: 5vh;
+	
+}
+
+th{
+	text-align: left;
+	font-weight: bold;
+	font-size: 3vh;
+	padding: 8px;
+	width: 15vw;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+	width: 15vw;
+	
+}
+
+/*footer end*/
 
 
