@@ -15,5 +15,6 @@ if(!defined('MyConst')) {
 ?>
 	
 	Hello
+	hei
 </body>
 </html>
