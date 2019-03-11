@@ -173,3 +173,14 @@ input[type=number] {
 	float: right;
 	
 }
+
+/*Logo*/
+img {
+	border: 2px solid red;
+	width: 7vw;
+	height: auto;
+	border-radius: 50%;
+	position: fixed;
+	margin: 4vh auto 0 auto;
+	z-index: 1;
+}

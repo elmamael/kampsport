@@ -2,12 +2,13 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/MyStyleKamp.css">
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <title>Untitled Document</title>
 </head>
 
 <body>
 	
+	<!--Navbar-->
 	<header>	
 	<div class="navbar">
 		<nav>
@@ -15,7 +16,7 @@
 				<li class="leftnav"><a href="">Nyheter</a></li>
 				<li class="leftnav"><a href="Timeplan.php">Timeplan</a></li>
 				
-				<div class="logo"><img src="src/Logo.jpg" alt="logo"></div>
+				<div class="logo"><a href="indexH.html"><img src="src/Logo.jpg" alt="logo"></a></div>
 				
 				<div class="rightnav">
 				 <div class="dropdown">
@@ -23,7 +24,7 @@
 					<i class="fa fa-caret-down"></i>
 				  </button>
 				  <div class="dropdown-content" id="myDropdown">
-					<a href="Trener.php">Trenere</a>
+					<a href="#">Trenere</a>
 					<a href="#">Om stiler</a>
 					<a href="#">Grunnlegger</a>
 					<a href="#">Partier</a>
@@ -38,29 +39,7 @@
 		
 	</header>
 	
-	<div class="Velkommen">
-		<h1>Velkommen til DH</h1>
-		<h2>Arnis Eskrima Kali</h2>
-		<img src="src/arrowsWhite.png" alt="arrows">
-	</div>
 	
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-</script>
 	
 </body>
 </html>

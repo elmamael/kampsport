@@ -15,6 +15,7 @@
 	<table class="table-loginn">
 			<form method="POST">
 				<tr><th>Login Administrasjon</th></tr>
+				<tr><img src="src/Logo.jpg" alt="logo"></tr>
 				<tr><td><div>Brukernavn:</div></td></tr>
 				<tr><td><div><input type="text" name="brukernavn" placeholder="  Sett inn brukernavn"><br></div></td></tr>
 				<tr><td><div>Passord:</div></td></tr>
@@ -28,9 +29,9 @@
 		{
 			echo("Starting.. <br>");
 			$server = "elevweb.akershus-fk.no";
-			$user = "toel1108";
+			$user = "Toel1108";
 			$password = "1234EE";
-			$databaseName = "toel1108_kampsport";
+			$databaseName = "Toel1108_kampsport";
 
 			$connection = new MySQLi($server, $user, $password, $databaseName);
 			if($connection -> connect_error)
@@ -55,6 +56,10 @@
 				{
 					$foundUser = true;
 					echo("Bruker ".$brukernavn . " finnes");
+					
+
+					header("Location: AdminSide.php");
+die();
 					break;
 				}				
 			}
@@ -62,6 +67,15 @@
 			{
 				echo("Wrong username and or password");
 			}
+		}
+	
+	$_SESSION['username'] = 'myUsername';
+
+		if(!isset($_SESSION['username'])){
+
+            header("Location:./AdminSide.php?msg=You must login first");
+        }
+        else{//do something
 		}
 	
 	?>
