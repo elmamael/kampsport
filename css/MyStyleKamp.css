@@ -208,13 +208,13 @@ h1{
 
 /*footer*/
 
-footer{
+.footer footer{
 	background-color: #333;
 	color: white;
 	padding: 5vw;
 }
 
-table {
+.footer table {
     border-collapse: collapse;
     width: 90%;
 	margin: 6vh auto 0 9vw;
@@ -222,7 +222,7 @@ table {
 	
 }
 
-th{
+.footer th{
 	text-align: left;
 	font-weight: bold;
 	font-size: 3vh;
@@ -230,7 +230,7 @@ th{
 	width: 15vw;
 }
 
-td {
+.footer td {
     text-align: left;
     padding: 8px;
 	width: 15vw;
@@ -239,4 +239,38 @@ td {
 
 /*footer end*/
 
+
+/*Timeplan*/
+.Timeplan table {
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20vw auto 0;
+}
+
+.Timeplan table, td, th {
+  border: 1px solid black;
+}
+
+#OverskriftTimeplan{
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  text-align: center;
+  background-color: #212020;
+  color: white;
+}
+
+.Timeplan td{
+	padding: 0.7vw;
+	text-align: center;
+}
+
+.Timeplan th{
+	padding: 0.4vw;
+	font-weight: bold;
+}
+
+
+.Timeplan td:hover {background-color: #ddd;}
+
+/*Timeplan end*/
 

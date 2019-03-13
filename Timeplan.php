@@ -7,6 +7,7 @@
 </head>
 
 <body>
+	<!--
 	<header>	
 	<div class="navbar">
 		<nav>
@@ -20,10 +21,58 @@
 		<div class="logo"><img src="src/Logo.jpg" alt="logo"></div>
 
 	</div>
-	</header>
+	</header> -->
 	<!-- Timeplan -->
+	<div class="Timeplan">
+	<table>
+		<tr>
+			<th colspan="6" id="OverskriftTimeplan">Timeplan</th>
+		</tr>
+		
+		<tr>
+			<th rowspan="6">Hours</th>
+			<div id="Dager">
+			<th>Man</th>
+			<th>Tir</th>
+			<th>Ons</th>
+			<th>Tor</th>
+			<th>Fre</th>
+			</div>
+		</tr>
+		
+		<tr>
+			<td rowspan="2">Arnis åpent<br> nivå</td>
+			<td></td>
+			<td rowspan="2"></td>
+			<td rowspan="2">Musikk</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td rowspan="3">Kali</td>
+			<td rowspan="2">Dans</td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			
+			<td rowspan="3">Lunch</td>
+			<td></td>
+		</tr>
+		
+		<tr>
+			<td rowspan="2">Eskrima</td>
+			<td rowspan="2">Musikk</td>
+			<td rowspan="2"></td>
+		</tr>
+		
+		<tr>
+			<td></td>
+		</tr>
+	</table>
+	</div>
 	
-	
+	<!--Gammel
 
 	<div class="timeline">
 		<ul>
@@ -48,7 +97,7 @@
 			<li><span>18:00</span></li>
 		</ul>
 	</div> <!-- .timeline -->
-
+<!--
 	<div class="events">
 		<ul>
 			<li class="events-group">
