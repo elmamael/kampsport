@@ -9,12 +9,14 @@
 	
 	
 <?php
-if(!defined('MyConst')) {
+/*if(!defined('MyConst')) {
    die('Direct access not permitted');
-}
+}*/
 ?>
 	
 	Hello
 	hei
+	
+	<a href="InfoMedlemer.php">Info medlemmer</a>
 </body>
 </html>

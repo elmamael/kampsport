@@ -69,14 +69,14 @@ die();
 			}
 		}
 	
-	$_SESSION['username'] = 'myUsername';
+	/*$_SESSION['username'] = 'myUsername';
 
 		if(!isset($_SESSION['username'])){
 
             header("Location:./AdminSide.php?msg=You must login first");
         }
         else{//do something
-		}
+		}*/
 	
 	?>
 </body>
