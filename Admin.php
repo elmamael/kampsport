@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="css/MyStyleAdmin.css">
+<link rel="stylesheet" href="css/MyStyleLogin.css">
 <meta charset="utf-8">
 <title>Untitled Document</title>
 </head>
@@ -69,14 +69,14 @@ die();
 			}
 		}
 	
-	$_SESSION['username'] = 'myUsername';
+	/*$_SESSION['username'] = 'myUsername';
 
 		if(!isset($_SESSION['username'])){
 
             header("Location:./AdminSide.php?msg=You must login first");
         }
         else{//do something
-		}
+		}*/
 	
 	?>
 </body>
