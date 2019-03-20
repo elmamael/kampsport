@@ -111,7 +111,6 @@ nav a{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -187,12 +186,21 @@ nav a:hover {
 }
 
 
-iframe {
-	width: 70vw;
-	height: 80vh;
-	display: block;
-	margin: 0 auto;
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+} 
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  width: 70%;
+  height: 70%;
 }
+ 
 
 /*Registrering*/
 
