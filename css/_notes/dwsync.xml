@@ -1,26 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8" ?>
-<dwsync>
-<file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="131975563819104755" remote="131975563810000000" Dst="1" />
-<file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="131981529919158731" remote="131981529900000000" Dst="1" />
-<file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="131967836524111920" remote="131975467590000000" Dst="1" />
-</dwsync>
-=======
-<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919578" Dst="1" /><file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="3636522833" remote="3636522844" Dst="1" /><file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919528" Dst="1" /></dwsync>
->>>>>>> 55b88dd857a0bd1439606e2c577a70ad0ddc360f
-=======
-<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919578" Dst="1" /><file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="3636522833" remote="3636522844" Dst="1" /><file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919528" Dst="1" /></dwsync>
-=======
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8" ?>
-<dwsync>
-<file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="131975563819104755" remote="131975563810000000" Dst="1" />
-<file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="131975557097478632" remote="131975557080000000" Dst="1" />
-<file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="131967836524111920" remote="131975467590000000" Dst="1" />
-</dwsync>
-=======
-<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919578" Dst="1" /><file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="3635942287" remote="3635942284" Dst="1" /><file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919528" Dst="1" /></dwsync>
->>>>>>> c4d8d5a2d5d0aaa9c0bddf3cfc2122db7295125e
->>>>>>> a57f4521d781e632ede72762becd038bd4b46985
->>>>>>> 26d1677094817c51a6308871211ba004d0d04ae8
+<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="131975563819104755" remote="131975563810000000" Dst="1" /><file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="3636524718" remote="3636525160" Dst="1" /><file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="131967836524111920" remote="131975467590000000" Dst="1" /></dwsync>
