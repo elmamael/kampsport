@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="css/MyStyleKamp.css">
+<link rel="stylesheet" href="css/MyStyleAdmin.css">
 <meta charset="utf-8">
 <title>Untitled Document</title>
 </head>
@@ -10,22 +10,19 @@
 	
 	
 	
-	<header>	
-	<div class="navbar">
-		<nav>
-			<ul>				
-				<li class="leftnav"><a href="Registrering.php">Registrering</a></li>
-				<li class="leftnav"><a href="Timeplan.php">Timeplan</a></li>
-				<li class="rightnav"><a href="">Konkuranser</a></li>
-				<li class="rightnav"><a href="">Om oss</a></li>
-			</ul>
-		</nav>
-		<div class="logo"><a href="indexH.html"> <img src="src/Logo.jpg" alt="logo"></a></div>
-	</div>
-		
-	</header>
+	<!--Navbar -->
+	<ul>
+	  <a href=""><img id="logo" src="src/Logo.jpg" alt=""></a>
+	  <li><a href="#home">Home</a></li>
+	  <li><a href="InfoMedlemer.php">Info Medlemmer</a></li>
+	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
+	  <li><a href="Registrering.php">Register nye elever</a></li>
+	</ul>
 	
 	
+	<!--Innhold på siden -->
+	
+	<div class="content">
 	<h1>Registrer deg her!</h1>
 	
 	
@@ -53,24 +50,14 @@
 				<tr><td><div>Telefonnummer:</div></td></tr>
 				<tr><td><div><input type="text" name="tlf" placeholder="98765432"><br></div></td></tr>
 				
-				<tr><td><div>Belte:</div></td></tr>
-				<tr><td><div><select name="belte">
-						<option value="2">Hvitt</option>
-						<option value="3">Gult</option>
-						<option value="4">Oransje</option>
-						<option value="5">Grønt</option>
-						<option value="6">Blått</option>
-						<option value="7">Brunt</option>
-						<option value="8">Svart</option>
-					
-				<br></div></td></tr>
+				
 				
 				<tr><td><div><input type="submit" name="leggtil" value="Registrer elev" onclick="window.location.href='IndexH.html'"></div></td></tr>
 				
 			</form>
 		</table>
 	</div>
-	
+	</div>
 	
 	<?php
 			if(isset($_POST["leggtil"]))
@@ -85,10 +72,10 @@
 				$adresse = $_POST["adresse"];
 				$fodselsdato = $_POST["fodselsdato"];
 				$tlf = $_POST["tlf"];
-				$belte = $_POST["belte"];
+		
 
 
-				$sql = "INSERT INTO Medlem (fornavn, etternavn, kjonn, adresse, fodselsdato, tlf, belte) VALUES ('$fornavn', '$etternavn', '$kjonn', '$adresse', '$fodselsdato', '$tlf', '$belte');";
+				$sql = "INSERT INTO Medlem (fornavn, etternavn, kjonn, adresse, fodselsdato, tlf) VALUES ('$fornavn', '$etternavn', '$kjonn', '$adresse', '$fodselsdato', '$tlf');";
 
 				if($connection->query($sql))
 				{
@@ -104,6 +91,7 @@
 					echo("Feil i brukerinput: Insert into elev " . mysqli_error($connection));
 				}
 			}
+			
 
 		?>
 </body>

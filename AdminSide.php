@@ -19,7 +19,7 @@
 	  <li><a href="#home">Home</a></li>
 	  <li><a href="InfoMedlemer.php">Info Medlemmer</a></li>
 	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
-	  <li><a href="#about">About</a></li>
+	  <li><a href="Registrering.php">Register nye elever</a></li>
 	</ul>
 	
 	<div class="content">

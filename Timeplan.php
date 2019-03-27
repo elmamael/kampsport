@@ -56,7 +56,7 @@
 		<tr>
 			<td></td>
 			
-			<td rowspan="3">Lunch</td>
+			<td rowspan="3">Dans</td>
 			<td></td>
 		</tr>
 		
