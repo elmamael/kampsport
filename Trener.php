@@ -10,19 +10,21 @@
 	
 	<!--Navbar-->
 	<nav>
-	  <a href="">Nyheter</a>
-	  <a href="">Timeplan</a>
-	  <div> <img id="logo" src="src/Logo.jpg" alt=""></div>
-	  <a href="">Konkurranser</a>
-	  <div class="dropdown">
-		 <button class="dropbtn">Om oss</button>
-		<div class="dropdown-content">
-			<a href="Trener.php">Trenere</a>
-			<a href="OmStiler.html">Om stiler</a>
-			<a href="#">Grunnlegger</a>
-			<a href="#">Partier</a>
-		</div>
-	</div>
+	  <label for="mob-dropChecked" id="mob-btn"></label>    
+	  <input type="checkbox" id="mob-dropChecked" role="button">
+	  <ul>
+		  <li><a href="OmStiler.html">Om stiler</a></li>
+		  <li><a href="Timeplan.php">Timeplan</a></li>
+		  <img id="logo" src="src/Logo.jpg" alt="">
+		  <li><a href="">Konkurranser</a></li>
+		  <li><a href="">Om oss</a>
+			  <ul class="dropdownconent">
+				<li><a href="Trener.php">Trenere</a></li>
+				<li><a href="#">Grunnlegger</a></li>
+				<li><a href="#">Partier</a></li>
+			  </ul>
+		  </li>
+	  </ul>    
 	</nav>
 	
 	<h1>Trenere</h1>
