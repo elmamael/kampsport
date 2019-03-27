@@ -62,11 +62,12 @@ nav {
         background: black;
         font-family: Times New Roman;
         font-size: 18px;
-        position: block;
+        position: fixed;
 	    height: 100px;
         width: 100%;
 	    margin: 0;
         z-index: 1;
+	top: 0;
 }
 nav ul {        
         display: flex;
