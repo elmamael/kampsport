@@ -238,12 +238,12 @@ iframe {
 /*footer end*/
 
 
-<<<<<<< HEAD
+
 /*Timeplan*/
 .Timeplan table {
   border-collapse: collapse;
   width: 60%;
-  margin: 20vw auto 0;
+  margin: 40vh auto 0;
 }
 
 .Timeplan table, td, th {
@@ -273,7 +273,6 @@ iframe {
 
 /*Timeplan end*/
 
-=======
 
 /*I TILFELLE VI MÅ ENDRE OG BRUKE DENNE*/
 /*<script>
@@ -293,4 +292,3 @@ window.onclick = function(e) {
   }
 }
 </script> */
->>>>>>> 286ee351746017a27c2ae55f19e2373c8b67bdd6

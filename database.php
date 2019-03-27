@@ -15,13 +15,15 @@
 			die("Connection failed ".$connection->connect_error);
 		}
 		
+		$connection->set_charset("utf8");
+		
 		/*
 		else
 		{
 			echo("Connection Successfull<br>");
 		}
 		
-		$connection->set_charset("utf8");
+		
 		*/
 	}
 		?>
