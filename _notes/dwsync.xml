@@ -1,10 +1,13 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="database.php" server="elevweb.akershus-fk.no/www_docs/" local="3634710744" remote="3635919528" Dst="1" /><file name="Admin.php" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919528" Dst="1" /><file name="AdminSide.php" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919578" Dst="1" /><file name="indexH.html" server="elevweb.akershus-fk.no/www_docs/" local="3636524718" remote="3636525160" Dst="1" /><file name="Trener.php" server="elevweb.akershus-fk.no/www_docs/" local="131967868601618688" remote="131967868590000000" Dst="1" /><file name="OmStiler.html" server="elevweb.akershus-fk.no/www_docs/" local="131967868898468300" remote="131967868880000000" Dst="1" /><file name="Timeplan.php" server="elevweb.akershus-fk.no/www_docs/" local="131973897284809097" remote="131973897290000000" Dst="1" /><file name="InfoMedlemer.php" server="elevweb.akershus-fk.no/www_docs/" local="131973914899370676" remote="131973914900000000" Dst="1" /><file name="Registrering.php" server="elevweb.akershus-fk.no/www_docs/" local="131963446031598138" remote="131973919900000000" Dst="1" /><file name="OppdaterOgSlett.php" server="elevweb.akershus-fk.no/www_docs/" local="131973927234510803" remote="131973927240000000" Dst="1" /><file name="Oppdater2.php" server="elevweb.akershus-fk.no/www_docs/" local="131975589495769546" remote="131975589480000000" Dst="1" /></dwsync>
+=======
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="database.php" server="elevweb.akershus-fk.no/www_docs/" local="3634710744" remote="3635919528" Dst="1" />
 <file name="Admin.php" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919528" Dst="1" />
 <file name="AdminSide.php" server="elevweb.akershus-fk.no/www_docs/" local="3635919395" remote="3635919578" Dst="1" />
 <file name="indexH.html" server="elevweb.akershus-fk.no/www_docs/" local="131981536946833037" remote="131981536930000000" Dst="1" />
-<file name="Trener.php" server="elevweb.akershus-fk.no/www_docs/" local="131981541041527111" remote="131981541020000000" Dst="1" />
+<file name="Trener.php" server="elevweb.akershus-fk.no/www_docs/" local="131967868601618688" remote="131967868590000000" Dst="1" />
 <file name="OmStiler.html" server="elevweb.akershus-fk.no/www_docs/" local="131967868898468300" remote="131967868880000000" Dst="1" />
 <file name="Timeplan.php" server="elevweb.akershus-fk.no/www_docs/" local="131981538734841229" remote="131981538710000000" Dst="1" />
 <file name="InfoMedlemer.php" server="elevweb.akershus-fk.no/www_docs/" local="131973914899370676" remote="131973914900000000" Dst="1" />
@@ -12,3 +15,4 @@
 <file name="OppdaterOgSlett.php" server="elevweb.akershus-fk.no/www_docs/" local="131973927234510803" remote="131973927240000000" Dst="1" />
 <file name="Oppdater2.php" server="elevweb.akershus-fk.no/www_docs/" local="131975589495769546" remote="131975589480000000" Dst="1" />
 </dwsync>
+>>>>>>> d1ee9e5c9fdf09baf51311e0a2459ee46fb49444
