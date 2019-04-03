@@ -19,6 +19,7 @@
 	  <li><a href="InfoMedlemer.php">Info Medlemmer</a></li>
 	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
 	  <li><a href="Registrering.php">Register nye elever</a></li>
+	  <li><a href="NyheterAdmin.php">Legg til nyheter</a></li>
 	</ul>
 	
 	<?php
