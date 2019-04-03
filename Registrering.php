@@ -17,6 +17,7 @@
 	  <li><a href="InfoMedlemer.php">Info Medlemmer</a></li>
 	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
 	  <li><a href="Registrering.php">Register nye elever</a></li>
+	  <li><a href="NyheterAdmin.php">Legg til nyheter</a></li>
 	</ul>
 	
 	
@@ -90,6 +91,39 @@
 				{
 					echo("Feil i brukerinput: Insert into elev " . mysqli_error($connection));
 				}
+				
+				$sql = "SELECT idMedlem FROM Medlem ORDER BY idMedlem desc limit 1";
+				$results = $connection->query($sql);
+				if($connection->query($sql))
+				{
+
+				
+				}
+				else
+				{
+					echo("Feil i brukerinput: Insert into elev " . mysqli_error($connection));
+				}
+				
+				
+				while($row = $results->fetch_assoc())
+				{
+					$idMedlem = $row['idMedlem'];
+				}
+				
+				$dato = date("Y-m-d");
+				$sql = "INSERT INTO Gradering (Beltegrad_idBeltegrad, Medlem_idMedlem, dato) VALUES ('1', '$idMedlem', '$dato');";
+				
+				
+				if($connection->query($sql))
+				{
+					echo('fungerte');
+				
+				}
+				else
+				{
+					echo("Feil i brukerinput: Insert into elev " . mysqli_error($connection));
+				}
+				
 			}
 			
 

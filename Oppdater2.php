@@ -51,6 +51,8 @@
 				<input type='text' name='etternavn' value='$etternavn'><br>
 				Født:<br>
 				<input type='text' name='fodselsdato' value='$fAAr'><br>
+				
+				
 				<input type='submit' name='Oppdater' value='Oppdater'>
 			</form>
 		");
