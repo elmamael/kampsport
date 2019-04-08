@@ -58,11 +58,11 @@ table {
 .bakgrunnsbildediv {
 	width: 100vw;
 	height: 85vh;
+	margin-top: -40vh;
 	background-image: url("../src/GetImage.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	z-index: -2;
 }
 
 
@@ -193,10 +193,9 @@ nav ul {
   background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  margin-top: 55vh;
   margin-left: 50%;
+  margin-top: 55vh;
   transform: translate(-50%, -50%);
-  z-index: -1;
   width: 65%;
   padding: 25px;
   text-align: center; 
@@ -235,6 +234,7 @@ nav ul {
   border: 0;
   width: 70%;
   height: 70%;
+	margin-top: 20vh;
 }
  
 
