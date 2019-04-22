@@ -32,7 +32,7 @@
 	
 	$connection->set_charset("utf8");
 
-	$sql = "SELECT fornavn, etternavn, fodselsdato, adresse, tlf, farge 
+	$sql = "SELECT fornavn, etternavn, fodselsdato, adresse, tlf, farge, dato 
 			FROM Medlem
 			JOIN Gradering 
 			ON Medlem_idMedlem = Gradering.Medlem_idMedlem 
@@ -71,7 +71,7 @@
 				<th>Adresse</th>
 				<th>Tlf</th>
 				<th>Grad</th>
-				
+				<th>Graderingsdato</th>
 			</tr>
 
 			");
@@ -85,6 +85,7 @@
 			$adresse = $row['adresse'];
 			$tlf = $row['tlf'];
 			$grad = $row['farge'];
+			$dato = $row['dato'];
 			$idMedlem = $row['idMedlem'];
 
 		echo("
@@ -96,6 +97,7 @@
 				<td>$adresse</td>
 				<td>$tlf</td>
 				<td>$grad</td>
+				<td>$dato</td>
 				<td><a href='Oppdater2.php?idMedlem=$idMedlem'>Oppdater</td>
 				<td><form method='POST' action=''><button name='ID' method='POST' type='submit' value='$idMedlem'>Slett</button></form></td>
 			</tr>
