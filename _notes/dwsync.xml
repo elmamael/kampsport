@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="database.php" server="elevweb.akershus-fk.no/www_docs/" local="131981512097873945" remote="131987543740000000" Dst="2" />
@@ -14,3 +15,5 @@
 <file name="NyheterAdmin.php" server="elevweb.akershus-fk.no/www_docs/" local="131987631389874978" remote="131987631380000000" Dst="2" />
 <file name="OppdaterOgSlettBackup.php" server="elevweb.akershus-fk.no/www_docs/" local="131992031086375121" remote="131992031080000000" Dst="2" />
 </dwsync>
+=======
+>>>>>>> acd958bd9810e3466cc38d2b4bb57e5f42152ef5
