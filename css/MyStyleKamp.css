@@ -22,6 +22,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
 	line-height: 1;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 ol, ul {
@@ -216,7 +217,7 @@ nav ul {
 .footer footer{
 	background-color: #333;
 	color: white;
-	padding: 5vw;
+	padding: 3vw;
 	margin-top: 10vh;
 }
 
@@ -251,7 +252,7 @@ nav ul {
 .Timeplan table {
   border-collapse: collapse;
   width: 60%;
-  margin: 40vh auto 0;
+  margin: 15vh auto 0;
 }
 
 .Timeplan table, td, th {
@@ -267,7 +268,7 @@ nav ul {
 }
 
 .Timeplan td{
-	padding: 0.7vw;
+	padding: 10vh 0.7vw;
 	text-align: center;
 }
 
@@ -276,8 +277,23 @@ nav ul {
 	font-weight: bold;
 }
 
+#man {
+	background-color: rgba(247,220,79,1.00);
+}
 
-.Timeplan td:hover {background-color: #ddd;}
+#ons {
+	background-color: rgba(101,167,247,1.00);
+}
+
+#fre{
+	background-color: rgba(144,212,145,1.00);
+}
+
+.Timeplan p{
+	text-align: center;
+	margin-top: 10vh;
+}
+
 
 /*Timeplan end*/
 
@@ -349,6 +365,10 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+.Gallerioverskrift h1{
+	margin-bottom: 10vh;
 }
 
 

@@ -24,7 +24,7 @@
 	<!--Innhold på siden -->
 	
 	<div class="content">
-	<h1>Registrer deg her!</h1>
+	<h1>Registrering for nye medlemmer!</h1>
 	
 	
 	<div>
@@ -92,6 +92,7 @@
 					echo("Feil i brukerinput: Insert into elev " . mysqli_error($connection));
 				}
 				
+				
 				$sql = "SELECT idMedlem FROM Medlem ORDER BY idMedlem desc limit 1";
 				$results = $connection->query($sql);
 				if($connection->query($sql))
@@ -112,6 +113,7 @@
 				
 				$dato = date("Y-m-d");
 				$sql = "INSERT INTO Gradering (Beltegrad_idBeltegrad, Medlem_idMedlem, dato) VALUES ('1', '$idMedlem', '$dato');";
+				
 				
 				
 				if($connection->query($sql))

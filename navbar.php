@@ -1,13 +1,12 @@
 <!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="css/MyStyleKamp.css">
 <meta charset="utf-8">
 <title>Untitled Document</title>
 </head>
 
 <body>
-	<!--Navbar-->
+	
 	<nav>
 	  <label for="mob-dropChecked" id="mob-btn"></label>    
 	  <input type="checkbox" id="mob-dropChecked" role="button">
@@ -25,15 +24,6 @@
 		  </li>
 	  </ul>    
 	</nav>
-	
-	
-	<h1>Om Stiler</h1>
-	
-	
-	
-	
-	
-	
 	
 </body>
 </html>
