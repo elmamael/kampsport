@@ -41,10 +41,11 @@
 			order by fornavn asc";
 	
 
+	$sql = "select * from Medlem";
 	
 	if($results = $connection->query($sql))
 	{
-		
+
 	}
 	else
 	{
@@ -75,6 +76,7 @@
 			</tr>
 
 			");
+
 		
 		while($row = $results->fetch_assoc())
 		{
@@ -86,6 +88,8 @@
 			$tlf = $row['tlf'];
 			$grad = $row['farge'];
 			$idMedlem = $row['idMedlem'];
+			
+			echo "her";
 
 		echo("
 			<tr>
