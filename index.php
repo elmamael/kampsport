@@ -53,7 +53,11 @@
 	
 	<!--Nyheter-->
 	
+	<?php
+		include 'database.php';
 	
+		$sql = "SELECT * FROM nyheter";
+	?>
 	
 	
 	<!--Nyheter end -->
