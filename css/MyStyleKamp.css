@@ -58,11 +58,14 @@ table {
 .bakgrunnsbildediv {
 	width: 100vw;
 	height: 85vh;
-	margin-top: -40vh;
+	margin-top: 15vh;
 	background-image: url("../src/GetImage.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+	display:flex;
+  	justify-content:center;
+ 	align-items:center;
 }
 
 
@@ -98,8 +101,7 @@ nav ul {
 	
 }
     nav ul li {
-        background-color: white;
-        border: 3px solid #f9c534;
+        background-color: black;
         position: relative;
         white-space: nowrap;
     }
@@ -107,8 +109,13 @@ nav ul {
         background-color: #f9c534;
         border-color: #fff;
     }
-    nav ul li a {
+
+	nav ul li a:hover {
         color: black;
+    }
+
+    nav ul li a {
+        color: white;
         display: block;
         margin: 0;
         padding: 18px;
@@ -140,11 +147,11 @@ nav ul {
     }
     @media only screen and (max-width: 600px) {
         nav {
-            height: 60px;
+            height: 9.5vh;
         }
         nav ul {
             display: block;
-            height: 60px;
+            height: 9.5vh;
             position: relative;
             top: 44px;
         }
@@ -179,6 +186,11 @@ nav ul {
             right: 0;
             top: 16px;
         }
+		
+		.bakgrunnsbildediv {
+			height: 90.5vh;
+			margin-top: 9.5vh;
+		}
     }
 /*Navbar slutt*/
 
@@ -193,12 +205,9 @@ nav ul {
   background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  margin-left: 50%;
-  margin-top: 55vh;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
   width: 65%;
   padding: 25px;
-  text-align: center; 
 }
 
 .Velkommen h1{
@@ -215,11 +224,9 @@ nav ul {
 
 .Velkommen img{
 	width: 6vw;
-	height: auto;
-	align-items: center;
-	margin-top: 5vh;
+	display: block;
+	margin: 5vh auto 0;
 }
-
 
 .iframe-container {
   overflow: hidden;
@@ -234,7 +241,7 @@ nav ul {
   border: 0;
   width: 70%;
   height: 70%;
-	margin-top: 20vh;
+	margin-top: 18vh;
 }
  
 
