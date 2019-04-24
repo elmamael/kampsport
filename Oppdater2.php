@@ -23,7 +23,9 @@
 		die("Må sende idMedlem");
 	}
 	
-	$sql = "SELECT * FROM Medlem WHERE idMedlem = $idMedlem";
+	$sql = "SELECT * FROM Medlem 
+			
+			WHERE idMedlem = $idMedlem";
 	
 	if($results = $connection->query($sql))
 	{
