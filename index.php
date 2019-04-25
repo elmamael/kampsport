@@ -56,7 +56,7 @@
 	<?php
 		include 'database.php';
 	
-		$sql = "SELECT * FROM nyheter";
+		$sql = "SELECT * FROM Nyhet";
 	?>
 	
 	
