@@ -52,11 +52,23 @@
 	
 	
 	<!--Nyheter-->
-	
+	<h1>Nyheter:</h1>
 	<?php
 		include 'database.php';
 	
 		$sql = "SELECT * FROM Nyhet";
+		$resultat = $connection->query($sql);
+	
+		while($rad = $resultat->fetch_assoc()) {
+			$overskrift = $rad["nyhet_navn"];
+			$nyhet = $rad["nyhet_info"];
+			
+			
+			echo("<h2>$overskrift</h2><br>");
+			echo("<div class='text'>");
+			echo("$nyhet");
+			echo("</div>");
+		}
 	?>
 	
 	
