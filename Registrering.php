@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html>
 <head>
@@ -11,53 +13,53 @@
 	
 	
 	<!--Navbar -->
-	<ul>
-	  <a href=""><img id="logo" src="src/Logo.jpg" alt=""></a>
-	  <li><a href="#home">Home</a></li>
-	  <li><a href="InfoMedlemer.php">Info Medlemmer</a></li>
-	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
-	  <li><a href="Registrering.php">Register nye elever</a></li>
-	  <li><a href="NyheterAdmin.php">Legg til nyheter</a></li>
-	</ul>
-	
+	<?php
+		include 'navbarAdmin.php'
+	?>
 	
 	<!--Innhold på siden -->
 	
+	
 	<div class="content">
-	<h1>Registrering for nye medlemmer!</h1>
+	
+
+		
+	<h1>Registrer nye medlemmer!</h1>
 	
 	
-	<div>
-		<table class="table-leggtil">
-			<form method="POST">
-				<tr><td><div>Fornavn:</div></td></tr>
-				<tr><td><div><input type="text" name="fornavn" placeholder="Ola"><br></div></td></tr>
-				
-				<tr><td><div>Etternavn:</div></td></tr>
-				<tr><td><div><input type="text" name="etternavn" placeholder="Nordmann"><br></div></td></tr>
-				
-				<tr><td><div>Kjønn:</div></td></tr>
-				<tr><td><div><select name="kjonn">
-						<option value="0">Mann</option>
-						<option value="1">Kvinne</option>
-				<br></div></td></tr>
-				
-				<tr><td><div>Adresse:</div></td></tr>
-				<tr><td><div><input type="text" name="adresse" placeholder="Hundremeterskogen 1"><br></div></td></tr>
-				
-				<tr><td><div>Fødselsdato:</div></td></tr>
-				<tr><td><div><input type="date" name="fodselsdato"><br></div></td></tr>
-				
-				<tr><td><div>Telefonnummer:</div></td></tr>
-				<tr><td><div><input type="text" name="tlf" placeholder="98765432"><br></div></td></tr>
-				
-				
-				
-				<tr><td><div><input type="submit" name="leggtil" value="Registrer elev" onclick="window.location.href='IndexH.html'"></div></td></tr>
-				
-			</form>
-		</table>
-	</div>
+		<div>
+			<table class="table-leggtil">
+				<form method="POST">
+					<tr><td><div>Fornavn:</div></td></tr>
+					<tr><td><div><input type="text" name="fornavn" placeholder="Ola"><br></div></td></tr>
+
+					<tr><td><div>Etternavn:</div></td></tr>
+					<tr><td><div><input type="text" name="etternavn" placeholder="Nordmann"><br></div></td></tr>
+
+					<tr><td><div>Kjønn:</div></td></tr>
+					<tr><td><div><select name="kjonn">
+							<option value="0">Mann</option>
+							<option value="1">Kvinne</option>
+					<br></div></td></tr>
+
+					<tr><td><div>Adresse:</div></td></tr>
+					<tr><td><div><input type="text" name="adresse" placeholder="Hundremeterskogen 1"><br></div></td></tr>
+
+					<tr><td><div>Fødselsdato:</div></td></tr>
+					<tr><td><div><input type="date" name="fodselsdato"><br></div></td></tr>
+
+					<tr><td><div>Telefonnummer:</div></td></tr>
+					<tr><td><div><input type="text" name="tlf" placeholder="98765432"><br></div></td></tr>
+
+
+
+					<tr><td><div><input type="submit" name="leggtil" value="Registrer elev" onclick="window.location.href='IndexH.html'"></div></td></tr>
+
+				</form>
+			</table>
+		</div>
+		
+		
 	</div>
 	
 	<?php

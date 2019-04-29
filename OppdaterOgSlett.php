@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html>
 <head>
@@ -13,14 +15,10 @@
 	?>
 	
 	<!--Navbar -->
-	<ul>
-	  <a href=""><img id="logo" src="src/Logo.jpg" alt=""></a>
-	  <li><a href="#home">Home</a></li>
-	  <li><a href="InfoMedlemer.php">Info Medlemmer</a></li>
-	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
-	  <li><a href="Registrering.php">Register nye elever</a></li>
-	  <li><a href="NyheterAdmin.php">Legg til nyheter</a></li>
-	</ul>
+	<?php
+		include 'navbarAdmin.php'
+	?>
+	<!--Navbar end -->
 	
 	<?php
 	
@@ -57,11 +55,14 @@
 	<!--Innhold på siden -->
 	
 	<div class="content">
+		
+		
+		
 		<h1>Oppdater medlemsinformasjon</h1>
 	
-		<?php
+		
 
-
+<?php
 		echo("
 		<table>
 			<tr>
@@ -74,9 +75,9 @@
 				<th>Grad</th>
 				
 			</tr>
-
 			");
-
+			
+	
 		
 		while($row = $results->fetch_assoc())
 		{
@@ -89,7 +90,6 @@
 			$grad = $row['farge'];
 			$idMedlem = $row['idMedlem'];
 			
-			echo "her";
 
 		echo("
 			<tr>
@@ -101,14 +101,17 @@
 				<td>$tlf</td>
 				<td>$grad</td>
 				<td><a href='Oppdater2.php?idMedlem=$idMedlem'>Oppdater</td>
-				<td><form method='POST' action=''><button name='ID' method='POST' type='submit' value='$idMedlem'>Slett</button></form></td>
+		
+				<td><form method='POST' action=''><button name='ID' method='POST' type='submit' value='$idMedlem'> Slett </button></form></td>
 			</tr>
+				
 			");	
-		}
-
+			}
+		
 		echo("
 			</table>
-		");	
+			");
+		
 
 		if(isset($_POST["ID"]))
 		{

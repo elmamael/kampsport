@@ -9,10 +9,11 @@
 	
 	<div class="footer">
 	<footer>
+		
 		<table>
 			<tr>
-				<th>Adresse</th>
-				<th>Telefon, e-post</th>
+				<th><?php echo $lang['adress'] ?></th>
+				<th><?php echo $lang['email'] ?></th>
 			</tr>
 			<tr>
 				<td>Øvre Fossum Gård</td>
