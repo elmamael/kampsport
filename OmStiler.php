@@ -7,14 +7,14 @@
 </head>
 
 <body>
-	
 	<!--Navbar-->
 	<?php
 		include 'navbar.php';
 	?>
 	<!--Navbar end-->
 	
-	<h1>Trenere</h1>
+	<h1>Om Stiler</h1>
+	
 	
 	
 	
@@ -25,7 +25,6 @@
 	?>
 	
 	<!--Footer end -->
-	
 	
 	
 </body>
