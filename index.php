@@ -11,7 +11,7 @@
 	<?php
 	
 		include 'navbar.php';
-	
+
 	?>
 	<!--Navbar end-->
 	
