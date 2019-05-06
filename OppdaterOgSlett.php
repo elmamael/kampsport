@@ -38,9 +38,6 @@
 			ON Gradering.Beltegrad_idBeltegrad = Beltegrad.idBeltegrad
 			order by fornavn asc";
 	
-
-	$sql = "select * from Medlem";
-	
 	if($results = $connection->query($sql))
 	{
 
@@ -81,6 +78,7 @@
 		
 		while($row = $results->fetch_assoc())
 		{
+			
 			$fornavn = $row['fornavn'];
 			$etternavn = $row['etternavn'];
 			$fAAr = $row['fodselsdato'];
