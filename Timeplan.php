@@ -23,7 +23,7 @@
 			  </ul>
 		  </li>
 		  <li><a class="active" href="Timeplan.php"><?php echo $lang['schedule'] ?></a></li>
-		  <img id="logo" src="src/Logo.jpg" alt="">
+		  <a href="index.php"><img id="logo" src="src/Logo.jpg" alt=""></a>
 		  <li><a href="OmStiler.php"><?php echo $lang['styles'] ?></a></li>
 		 
 		  <li>
