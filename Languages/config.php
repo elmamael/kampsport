@@ -12,4 +12,3 @@
 
 	require_once "Languages/" . $_SESSION['lang'] . ".php";
 ?>
-
