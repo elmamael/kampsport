@@ -7,6 +7,7 @@
 
 <body>
 	
+	
 	<nav>
 	  <label for="mob-dropChecked" id="mob-btn"></label>    
 	  <input type="checkbox" id="mob-dropChecked" role="button">
@@ -27,10 +28,7 @@
 				<a href="index.php?lang=en"><img src="src/en.jpg"> </a> | 
 				<a href="index.php?lang=no"><img src="src/no.png"></a>
 			  </div>
-		  </li>
-		 
-		  
-		  
+		  </li>  
 	  </ul>    
 	</nav>
 	
