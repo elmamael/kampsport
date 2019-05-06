@@ -11,7 +11,7 @@
 		else if ($_GET['lang'] == "en")
 			$_SESSION['lang'] = "en";
 		
-	require_once("Languages/" . $_SESSION['lang'] . ".php");
+	require_once "../Languages" . $_SESSION['lang'] . ".php";
 	
 	}
 ?>

@@ -1,3 +1,7 @@
+<?php
+	include "Languages/config.php";
+?>
+
 <!doctype html>
 <html>
 <head>
