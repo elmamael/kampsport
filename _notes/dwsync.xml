@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="database.php" server="elevweb.akershus-fk.no/www_docs/" local="131981512097873945" remote="131987543740000000" Dst="2" />
@@ -24,3 +25,6 @@
 <file name=".DS_Store" server="elevweb.akershus-fk.no/www_docs/" local="131967856747791434" remote="132012625220000000" Dst="2" />
 <file name="header.php" server="elevweb.akershus-fk.no/www_docs/" local="132016361984794374" remote="132016361960000000" Dst="2" />
 </dwsync>
+=======
+
+>>>>>>> 207b9420d36a56c0ee35782533ceea7e6e0c1697
