@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="database.php" server="elevweb.akershus-fk.no/www_docs/" local="131981512097873945" remote="131987543740000000" Dst="2" />
@@ -25,3 +26,6 @@
 <file name="header.php" server="elevweb.akershus-fk.no/www_docs/" local="132016361984794374" remote="132016361960000000" Dst="2" />
 <file name="config.php" server="elevweb.akershus-fk.no/www_docs/" local="132016366326479156" remote="132016370720000000" Dst="2" />
 </dwsync>
+=======
+
+>>>>>>> ac5fdaae7e82eb01fbec69d15650d6994be41a56
