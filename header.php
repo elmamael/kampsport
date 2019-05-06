@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
-	include "Languages/config.php";
-=======
 	include "Languages/config.php"
->>>>>>> 04a256add07d241a5bf3b21e005361c8cfdf4139
 ?>
 
 <!doctype html>
