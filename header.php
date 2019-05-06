@@ -1,5 +1,9 @@
+<?php
+	include "Languages/config.php"
+?>
+
 <!doctype html>
-<html>
+<html lang="no">
 <head>
 <link rel="stylesheet" href="css/MyStyleKamp.css">
 <meta charset="UTF-8">
