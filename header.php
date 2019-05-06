@@ -1,5 +1,5 @@
 <?php
-	include "Languages/config.php"
+	include "config.php"
 ?>
 
 <!doctype html>
