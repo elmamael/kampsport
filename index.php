@@ -2,9 +2,6 @@
 	include 'header.php';
 ?>
 
-
-
-
 <body>
 	<!--Navbar-->
 	
