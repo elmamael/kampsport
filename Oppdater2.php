@@ -45,7 +45,7 @@
 		$fornavn = $row['fornavn'];
 		$etternavn = $row['etternavn'];
 		$fodselsdato = $row['fodselsdato'];
-		$alder = date("Y") - $fAAr;
+		$alder = date("Y") - $fodselsdato;
 		$ID_medlem = $row['idMedlem'];
 
 		echo("	
