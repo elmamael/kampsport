@@ -465,3 +465,15 @@ div.desc {
 			height: 40vh;
 			margin: 0 3%;
 		}
+	
+	
+	.lang {
+		margin-top: -6vh;
+		margin-right: 3vw;
+		float: right;
+	}
+	
+	.lang a img{
+		width: 40px;
+		height: 24px;
+	}
