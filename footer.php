@@ -10,6 +10,11 @@
 	<div class="footer">
 	<footer>
 		
+		<div class="footerlang">
+			<a href="index.php?lang=en"><img src="src/en.jpg"> </a> | 
+			<a href="index.php?lang=no"><img src="src/no.png"></a>
+		</div>
+		
 		<table>
 			<tr>
 				<th><?php echo $lang['adress'] ?></th>

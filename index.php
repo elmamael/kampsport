@@ -23,12 +23,12 @@
 		  
 		  <li><a href="OmStiler.html"><?php echo $lang['styles'] ?></a></li>
 		 
-		  <li>
-			  <div class="lang">
-				<a href="index.php?lang=en"><img src="src/en.jpg"> </a> | 
-				<a href="index.php?lang=no"><img src="src/no.png"></a>
-			  </div>
-		  </li>  
+		  
+		  <div class="lang">
+			<a href="index.php?lang=en"><img src="src/en.jpg"> </a> | 
+			<a href="index.php?lang=no"><img src="src/no.png"></a>
+		  </div>
+		  
 	  </ul>    
 	</nav>
 	

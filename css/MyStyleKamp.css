@@ -159,17 +159,7 @@ li a.active {
   color: white;
 }
 
-.lang a {
-	text-align: center;
-	color: white;
-	text-decoration: none;
-	display: inline;
-}
 
-.lang:hover{
-	background-color: none;
-    border-color: #fff;
-}
 
 
 .lang img{
@@ -273,6 +263,14 @@ li a.active {
 	
 }
 
+.footerlang{
+	margin: 0 auto 0 42vw;
+}
+
+.footerlang img{
+	width: 1.5vw;
+	height: 1vw;
+}
 
 /*footer end*/
 
