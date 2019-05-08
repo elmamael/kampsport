@@ -18,7 +18,7 @@
 		  </li>
 		  <li><a href="Timeplan.php"><?php echo $lang['schedule'] ?></a></li>
 		  
-		  <a href="index.php"><img id="logo" src="src/Logo.jpg" alt=""></a>
+		  </li><a href="index.php"><img id="logo" src="src/Logo.jpg" alt=""></a></li>
 		  
 		  
 		  <li><a href="OmStiler.html"><?php echo $lang['styles'] ?></a></li>
