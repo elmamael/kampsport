@@ -16,7 +16,8 @@
 
 	if(isset($_GET["idMedlem"]))
 	{
-		$idMedlem = $_GET["idMedlem"];;
+		$idMedlem = $_GET["idMedlem"];
+	
 	}
 	else
 	{
@@ -25,7 +26,9 @@
 	
 	$sql = "SELECT * FROM Medlem 
 			
-			WHERE idMedlem = $idMedlem";
+			WHERE idMedlem = $idMedlem"; 
+	
+	
 	
 	if($results = $connection->query($sql))
 	{
@@ -33,7 +36,7 @@
 	}
 	else
 	{
-		echo("Feil i brukerinput: " . mysqli_error($connection));
+		echo("Feil i brukerinput endre info: " . mysqli_error($connection));
 	}
 
 
@@ -41,7 +44,7 @@
 	{
 		$fornavn = $row['fornavn'];
 		$etternavn = $row['etternavn'];
-		$fAAr = $row['fodselsdato'];
+		$fodselsdato = $row['fodselsdato'];
 		$alder = date("Y") - $fAAr;
 		$ID_medlem = $row['idMedlem'];
 
@@ -52,7 +55,7 @@
 				Etternavn:<br>
 				<input type='text' name='etternavn' value='$etternavn'><br>
 				Født:<br>
-				<input type='text' name='fodselsdato' value='$fAAr'><br>
+				<input type='text' name='fodselsdato' value='$fodselsdato'><br>
 				
 				
 				<input type='submit' name='Oppdater' value='Oppdater'>
@@ -64,10 +67,10 @@
 	{
 		$fornavn = $_POST["fornavn"];
 		$etternavn = $_POST["etternavn"];
-		$fAAr = $_POST["født"];
+		$fodselsdato = $_POST["født"];
 		
 		$sql = "UPDATE Medlem
-				SET fornavn = '$fornavn', etternavn = '$etternavn', fodselsdato = '$fAAr'
+				SET fornavn = '$fornavn', etternavn = '$etternavn', fodselsdato = '$fodselsdato'
 				WHERE idMedlem = $idMedlem;";
 
 			if($connection->query($sql))

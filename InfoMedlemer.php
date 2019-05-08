@@ -33,7 +33,7 @@
 				ON Medlem_idMedlem = Gradering.Medlem_idMedlem 
 				JOIN Beltegrad 
 				ON Gradering.Beltegrad_idBeltegrad = Beltegrad.idBeltegrad
-				order by fornavn asc";
+				order by fornavn asc, idBeltegrad desc";
 
 			if($results = $connection->query($sql))
 			{
