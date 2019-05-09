@@ -14,15 +14,23 @@
 	?>
 	<!--Navbar end -->
 	
+	<!--Innhold på siden -->
 	
+	<div class="content">
+		<h1>Oppdater medlemsinformasjon</h1>
+		<table class="medlemstabell">
+			<tr>
+				<th>Fornavn</th>
+				<th>Etternavn</th> 
+				<th>Adresse</th>
+				<th>Fødselsdato</th>
+				<th>Telefon</th>
+				<th>Grad</th>
+				<th>Graderingsdato</th>
+				<th>Oppdater</th>
+				<th>Slett</th>
+			</tr>
 	<?php
-		function slettRad($id) 
-			{ 
-				print("noe skjedde");
-			}
-	
-			
-			
 		$sql = "SELECT idMedlem, fornavn, etternavn, adresse, fodselsdato, tlf, dato, Farge
 				FROM Medlem
 				JOIN Gradering
@@ -37,33 +45,7 @@
 		else{
 			echo("Feil i brukerinput Oppdater og slett: " . mysqli_error($connection));
 		}
-	
-	
 			
-	?>
-	
-	<!--Innhold på siden -->
-	
-	<div class="content">
-		<h1>Oppdater medlemsinformasjon</h1>
-	
-	<?php
-		
-		echo("
-		<table>
-			<tr>
-				<th>Fornavn</th>
-				<th>Etternavn</th> 
-				<th>Adresse</th>
-				<th>Fødselsdato</th>
-				<th>Alder</th>
-				<th>Tlf</th>
-				<th>Grad</th>
-				<th>Graderingsdato</th>
-			</tr>
-
-			");
-		
 		$navn = "";
 			
 			
@@ -72,7 +54,6 @@
 			$etternavn = $row["etternavn"];
 			$adresse = $row["adresse"];
 			$fodselsdato = $row["fodselsdato"];
-			$alder = date("Y") - $fodselsdato;
 			$tlf = $row["tlf"];
 			$dato = $row["dato"];
 			$farge = $row["Farge"];
@@ -86,7 +67,6 @@
 						<td>$etternavn</td>
 						<td>$adresse</td>
 						<td>$fodselsdato</td>
-						<td>$alder</td>
 						<td>$tlf</td>
 						<td>$farge</td>
 						<td>$dato</td>

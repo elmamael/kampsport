@@ -47,6 +47,8 @@
 		$fodselsdato = $row['fodselsdato'];
 		$alder = date("Y") - $fodselsdato;
 		$ID_medlem = $row['idMedlem'];
+		$adresse = $row['adresse'];
+		$tlf = $row['tlf'];
 
 		echo("	
 			<form method='POST'>
@@ -56,9 +58,30 @@
 				<input type='text' name='etternavn' value='$etternavn'><br>
 				Født:<br>
 				<input type='text' name='fodselsdato' value='$fodselsdato'><br>
+				Adresse:<br>
+				<input type='text' name='adresse' value='$adresse'><br>
+				Telefon:<br>
+				<input type='text' name='tlf' value='$tlf'><br>
 				
 				
 				<input type='submit' name='Oppdater' value='Oppdater'>
+				<br><br>
+				Beltegrad <br>
+				");
+				
+				$sql = "SELECT * FROM Beltegrad";
+				$result = $connection->query($sql);
+				echo "<select name='idBeltegrad'>";
+				while($row = $result->fetch_assoc()) {
+					$idBeltegrad = $row["idBeltegrad"];
+					$Farge = $row["Farge"];
+					
+					echo "<option value=$idBeltegrad>$Farge</option>";
+				}
+			echo ("</select><br>
+			Graderingsdato<br>
+			<input type='date' name='dato' placeholder='2019-01-18'><br>
+			<input type='submit' name='LeggTilGradering' value='Legg til ny gradering!'><br>
 			</form>
 		");
 	}
@@ -68,9 +91,11 @@
 		$fornavn = $_POST["fornavn"];
 		$etternavn = $_POST["etternavn"];
 		$fodselsdato = $_POST["fodselsdato"];
+		$adresse = $_POST["adresse"];
+		$tlf = $_POST["tlf"];
 		
 		$sql = "UPDATE Medlem
-				SET fornavn = '$fornavn', etternavn = '$etternavn', fodselsdato = '$fodselsdato'
+				SET fornavn = '$fornavn', etternavn = '$etternavn', fodselsdato = '$fodselsdato', adresse = '$adresse', tlf = '$tlf' 
 				WHERE idMedlem = $idMedlem;";
 
 			if($connection->query($sql))
@@ -81,6 +106,21 @@
 			else{
 				echo("Error description: " . mysqli_error($connection));
 			}	
+	}	
+	
+	if(isset($_POST["LeggTilGradering"]))
+	{
+		$idBeltegrad = $_POST["idBeltegrad"];
+		$dato = $_POST["dato"];
+		
+		$sql = "INSERT INTO Gradering (Medlem_idMedlem, Beltegrad_idBeltegrad, dato) VALUES ('$idMedlem', '$idBeltegrad', '$dato');";
+				if($connection->query($sql))
+				{
+					echo("En ny gradering for $fornavn $etternavn ble lagt til!");
+				}
+				else{
+					echo("Feil i brukerinput: " . mysqli_error($connection));
+				}
 	}	
 	?>
 	
