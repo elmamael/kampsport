@@ -105,6 +105,32 @@
 		echo("
 			</table>
 		");
+		
+		if(isset($_POST["ID"]))
+		{
+			$delete = $_POST["ID"];
+			
+			$sql = "DELETE FROM Gradering WHERE Medlem_idMedlem='$delete'";
+			
+			if ($connection->query($sql) === TRUE){
+				
+			}
+			
+			else{
+				echo("Feil i spørring: " . mysqli_error($connection));
+			}
+			
+			$sql = "DELETE FROM Medlem WHERE idMedlem='$delete'";
+			
+			if ($connection->query($sql) === TRUE){
+				
+			}
+			
+			else{
+				echo("Feil i spørring: " . mysqli_error($connection));
+			}
+			//echo("$_POST['ID']");
+		}
 	?>
 	</div>
 </body>

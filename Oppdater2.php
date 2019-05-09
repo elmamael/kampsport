@@ -45,7 +45,7 @@
 		$fornavn = $row['fornavn'];
 		$etternavn = $row['etternavn'];
 		$fodselsdato = $row['fodselsdato'];
-		$alder = date("Y") - $fAAr;
+		$alder = date("Y") - $fodselsdato;
 		$ID_medlem = $row['idMedlem'];
 
 		echo("	
@@ -67,7 +67,7 @@
 	{
 		$fornavn = $_POST["fornavn"];
 		$etternavn = $_POST["etternavn"];
-		$fodselsdato = $_POST["født"];
+		$fodselsdato = $_POST["fodselsdato"];
 		
 		$sql = "UPDATE Medlem
 				SET fornavn = '$fornavn', etternavn = '$etternavn', fodselsdato = '$fodselsdato'
