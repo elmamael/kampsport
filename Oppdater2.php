@@ -67,7 +67,7 @@
 	{
 		$fornavn = $_POST["fornavn"];
 		$etternavn = $_POST["etternavn"];
-		$fodselsdato = $_POST["født"];
+		$fodselsdato = $_POST["fodselsdato"];
 		
 		$sql = "UPDATE Medlem
 				SET fornavn = '$fornavn', etternavn = '$etternavn', fodselsdato = '$fodselsdato'
