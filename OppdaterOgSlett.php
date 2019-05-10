@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <?php
 	include 'headerAdmin.php';
 ?>
@@ -5,7 +8,13 @@
 <body>
 	
 	<?php
-	include 'database.php';
+		include 'database.php';
+	if (isset($_SESSION['brukernavn'])){
+
+	}
+	else {
+		header("Location:Admin.php");
+	}
 	?>
 	
 	<!--Navbar -->

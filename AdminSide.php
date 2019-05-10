@@ -1,3 +1,7 @@
+<?php 
+	session_start();
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -10,9 +14,14 @@
 	
 	
 <?php
-/*if(!defined('MyConst')) {
-   die('Direct access not permitted');
-}*/
+	include 'database.php';
+	
+	if (isset($_SESSION['brukernavn'])){
+
+	}
+	else {
+		header("Location:Admin.php");
+	}
 ?>
 	<!--Navbar -->
 	<?php

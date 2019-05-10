@@ -59,14 +59,10 @@ table {
 	background-color: #333;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15vh;
+	margin-top: 5vh;
 	color: #F3F3F3;	
 	height: 100%;
-<<<<<<< HEAD
-=======
 	padding-top: 3vh;
->>>>>>> e8c45baa5abffc069620692888110df56930eab4
-	/*height: 100%;*/
 }
 
 .table-loginn td, .table-loginn th 
@@ -152,14 +148,6 @@ input[type=password] {
 	padding-left: 3vw;
 }
 
-input[type=number] {
-	width: 100%;
-	border-radius: 5px;
-	border-style: none;
-	padding-left: 3vw;
-}
-
-
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 
 	font-size: 3vh;
@@ -176,11 +164,7 @@ input[type=number] {
 
 /*Logo*/
 img {
-	border: 2px solid red;
 	width: 7vw;
-	height: auto;
 	border-radius: 50%;
-	position: fixed;
-	margin: 4vh auto 0 auto;
-	z-index: 1;
+	margin: 5vh 0 0 46.5vw;
 }

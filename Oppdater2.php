@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <!doctype html>
 <html>
 <head>
@@ -8,9 +11,13 @@
 <body>
 	
 	<?php
-	include 'database.php';
-	
-	
+		include 'database.php';
+	if (isset($_SESSION['brukernavn'])){
+
+	}
+	else {
+		header("Location:Admin.php");
+	}
 	
 	$connection->set_charset("utf8");
 
