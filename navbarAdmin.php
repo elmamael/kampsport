@@ -15,8 +15,7 @@
 	
 	<!--Navbar -->
 	<ul>
-	  <a href=""><img id="logo" src="src/Logo.jpg" alt=""></a>
-	  <li><a href="#home">Hjem</a></li>
+	  <a href="AdminSide.php"><img id="logo" src="src/Logo.jpg" alt=""></a>
 	  <li><a href="InfoMedlemer.php">Medlemsinformasjon</a></li>
 	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
 	  <li><a href="Registrering.php">Registrer nytt medlem</a></li>
