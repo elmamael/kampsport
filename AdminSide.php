@@ -1,3 +1,7 @@
+<?php 
+	session_start();
+?>
+
 <!doctype html>
 <html>
 <head>
@@ -10,9 +14,14 @@
 	
 	
 <?php
-/*if(!defined('MyConst')) {
-   die('Direct access not permitted');
-}*/
+	include 'database.php';
+	
+	if (isset($_SESSION['brukernavn'])){
+
+	}
+	else {
+		header("Location:Admin.php");
+	}
 ?>
 	<!--Navbar -->
 	<?php
@@ -20,12 +29,11 @@
 	?>
 	<!--Navbar end -->
 	
-	<div class="content">
-	Hello
-	hei
 	
-	<a href="InfoMedlemer.php">Info medlemmer</a>
-	<a href="OppdaterOgSlett.php">Oppdater og slett</a>
+	
+	<div class="content">
+	<h1>Velkommen</h1>
+	På denne siden kan du gjøre endringer på nettsiden. Her kan du se informasjon om medlemmene, endre informasjon, registrere nye medlemmer og legge til nyheter
 		
 	</div>
 </body>

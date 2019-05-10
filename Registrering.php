@@ -1,4 +1,6 @@
-
+<?php 
+	session_start();
+?>
 <!doctype html>
 <html>
 <head>
@@ -9,6 +11,16 @@
 
 <body>
 	
+	
+	<?php
+		include 'database.php';
+	if (isset($_SESSION['brukernavn'])){
+
+	}
+	else {
+		header("Location:Admin.php");
+	}
+	?>
 	
 	
 	<!--Navbar -->
