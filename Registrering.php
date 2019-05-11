@@ -14,12 +14,13 @@
 	
 	<?php
 		include 'database.php';
-	if (isset($_SESSION['brukernavn'])){
+	
+		if (isset($_SESSION['brukernavn'])){
 
-	}
-	else {
-		header("Location:Admin.php");
-	}
+		}
+		else {
+			header("Location:Admin.php");
+		}
 	?>
 	
 	

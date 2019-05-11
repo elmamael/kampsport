@@ -86,8 +86,6 @@
 			}
 			
 			$navn = $idMedlem;
-				
-		
 		
 		}
 

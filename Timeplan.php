@@ -41,6 +41,7 @@
 	<!--Navbar end-->
 	
 	<h1><?php echo $lang['whenwetrain'] ?></h1>
+
 	<!-- Timeplan -->
 	<div class="Timeplan">
 	

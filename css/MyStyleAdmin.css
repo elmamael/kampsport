@@ -52,7 +52,8 @@ li a:hover:not(.active) {
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
+	padding: 0 4%;
 }
 .medlemstabell {
 	overflow-x: auto;
@@ -64,6 +65,7 @@ table {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
 	width: 100%;
+	padding: 0 4%;
 }
 
 table td, table th {
