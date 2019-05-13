@@ -89,7 +89,7 @@ h2{
 nav {
         background: black;
         font-family: Times New Roman;
-        font-size: 14px;
+        height: 15vh;
         height: 94px;
         position: fixed;
         width: 100%;
@@ -211,13 +211,12 @@ li a.active {
   overflow: hidden;
   padding-top: 56.25%;
   position: relative;
+  display: block;
+  margin: 0 auto;
 } 
 
 .iframe-container iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  border: 0;
   width: 70%;
   height: 70%;
   margin-top: 18vh;
@@ -452,21 +451,6 @@ div.desc {
 			height: 90.5vh;
 			margin-top: 9.5vh;
 		}
-		
-		.iframe-container iframe {
- 
- 		width: 100%;
-		height: 40vh;
-		margin-top: 10vh;
-  		}
-	
-	
-		#YTvideo {
-			width: 94%;
-			height: 40vh;
-			margin: 0 3%;
-		}
-	
 	
 	.lang {
 		margin-top: -6vh;
