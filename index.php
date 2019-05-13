@@ -55,10 +55,13 @@
 	
 	<!--Nyheter-->
 	<h1><?php echo $lang['news'] ?> :</h1>
+
+<table class="newstable">
 	<?php
 		include 'database.php';
 	
-		$sql = "SELECT * FROM Nyhet";
+		$sql = "SELECT * FROM Nyhet
+				order by idNyhet desc limit 4";
 		$resultat = $connection->query($sql);
 	
 		while($rad = $resultat->fetch_assoc()) {
@@ -66,13 +69,13 @@
 			$nyhet = $rad["nyhet_info"];
 			
 			
-			echo("<h2>$overskrift</h2><br>");
-			echo("<div class='text'>");
-			echo("$nyhet");
-			echo("</div>");
+			echo("
+			<tr><th>$overskrift</th></tr>
+			<tr><td>$nyhet</td></tr>
+			");
 		}
 	?>
-	
+</table>	
 	
 	<!--Nyheter end -->
 	

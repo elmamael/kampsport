@@ -224,6 +224,27 @@ li a.active {
 }
  
 
+/*Nyheter*/
+
+.newstable{
+	width: 60%;
+	margin: 10vh auto;
+}
+
+.newstable th{
+	padding: 1vw;
+	background-color: #f9c534;
+	font-weight: bold;
+}
+
+.newstable td{
+	padding: 2vw;
+}
+
+/*Nyheter end*/
+
+
+
 /*Registrering*/
 
 .table-leggtil{
