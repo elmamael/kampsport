@@ -40,14 +40,14 @@
 		<div class="Velkommen">
 		<h1><?php echo $lang['welcome'] ?></h1>
 		<h2><?php echo $lang['arnis'] ?></h2>
-		<a href="#YTvideo"><img src="src/arrowsWhite.png" alt="arrows"></a>
+		<a href="#iframe-container"><img src="src/arrowsWhite.png" alt="arrows"></a>
 		</div>
 	</div>
 	
 	
 	
-	<div class="iframe-container" id="YTvideo">
-		<iframe src="https://www.youtube.com/embed/h4WiCcdiaOc" allowfullscreen></iframe> 
+	<div id="iframe-container">
+		<iframe width="560" height="349" src="https://www.youtube.com/embed/h4WiCcdiaOc" allowfullscreen></iframe> 
 	</div>
 	
 	<!--Wrapper end -->
