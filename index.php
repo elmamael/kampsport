@@ -6,7 +6,7 @@
 	<!--Navbar-->
 	
 	<nav>
-	  <label for="mob-dropChecked" id="mob-btn"></label>    
+	  <label for="mob-dropChecked" id="mobilknapp"></label>    
 	  <input type="checkbox" id="mob-dropChecked" role="button">
 	  <ul>
 		  <li><a href=""><?php echo $lang['about'] ?></a>

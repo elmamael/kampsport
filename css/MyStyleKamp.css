@@ -91,7 +91,7 @@ nav {
         font-family: Times New Roman;
         height: 15vh;
         position: fixed;
-        width: 100%;
+        width: 100vw;
         z-index: 1;
 		top: 0;
     }
@@ -103,7 +103,7 @@ nav ul {
         list-style: none;
         padding: 0;
         margin: 0;   
-        height: 94px;     
+        height: 15vh;     
     }
     nav ul li {
         position: relative;
@@ -425,11 +425,12 @@ div.desc {
 	
 	
 @media only screen and (max-width: 600px) {
-      nav {
-            height: 9.5vh;
+     
+	nav {
+          height: 9.5vh;
 		  background: black;
         }
-        nav ul {
+ 	nav ul {
             display: block;
             height: 9.5vh;
             position: relative;
@@ -445,7 +446,7 @@ div.desc {
             top: -8.8vh;
 			width: 55px;
         }
-        #mob-btn {
+        #mobilknapp {
             background-image: url('https://www.shareicon.net/data/512x512/2017/05/09/885755_list_512x512.png');
             background-color: transparent;
             border: 0;
@@ -481,4 +482,5 @@ div.desc {
 	.lang a img{
 		width: 40px;
 		height: 24px;
+	}
 	}

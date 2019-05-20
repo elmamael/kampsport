@@ -44,18 +44,11 @@ table {
 	border-spacing: 0;
 }
 
-
-.bg-loginn
-{
-	background-image: url(../src/PinkBackground.jpg);
-	
-}
-
 .table-loginn
 {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
     border-collapse: collapse;
-    width: 60%;
+    width: 60vw;
 	background-color: #333;
 	margin-left: auto;
 	margin-right: auto;
@@ -67,16 +60,9 @@ table {
 
 .table-loginn td, .table-loginn th 
 {
-    border: 30px none #ddd;
     padding: 8px;
 	font-size: 1vw;
-	/*display: flex;
-	justify-content: center;
-	align-items: center;
-	/*font-size: ;
-	font-size: 9vw;*/
 	height: auto;
-	/*text-align: center;*/
 	height: 5%;
 }
 .table-loginn th 
@@ -95,23 +81,11 @@ table {
 
 .table-loginn td div input
 {
-	
 	height: 10vh;
 	font-size: 4vh;
 	
 }
 
-.main
-{
-	height: 80vh;
-	margin-top: 10vh;
-	margin-bottom: 10vh;
-}
-.main POST
-{
-	height: 100%;
-	
-}
 
 input[type=submit] {
  	color: #111;
@@ -157,16 +131,18 @@ input[type=password] {
 
 
 
-.right
-{
-	float: right;
-	
-}
-
 /*Logo*/
 img {
-	width: 7vw;
+	width: 100px;
 	border-radius: 50%;
-	margin: 5vh 0 0 46.5vw;
+	display: block;
+	margin: 5vh auto 0;
 	border: 0.3vw solid black;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.table-loginn {
+		width: 100vw;
+	}
 }
