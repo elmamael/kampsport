@@ -21,7 +21,7 @@
 				<tr><td><div><input type="submit" name="login" value="Login"></div></td></tr>
 				<tr><td><div><br></div></td></tr>
 			</form>
-		</table>
+	</table>
 	
 	
 		<?php

@@ -3,9 +3,7 @@
 
 /*Style Login*/
 
-body{
-	background-image: url(../src/Yellow.jpg)
-}
+
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -21,10 +19,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 
-body {
-	line-height: 1;
-	color: white;
-}
 
 ol, ul {
 	list-style: none;
@@ -44,40 +38,41 @@ table {
 	border-spacing: 0;
 }
 
+body{
+	background-image: url(../src/Yellow.jpg)
+}
+
 .table-loginn
 {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
     border-collapse: collapse;
     width: 60vw;
 	background-color: #333;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5vh;
+	margin: 5vh auto 0;
 	color: #F3F3F3;	
 	height: 100%;
 	padding-top: 3vh;
 }
 
-.table-loginn td, .table-loginn th 
+.table-loginn td
 {
     padding: 8px;
 	font-size: 1vw;
-	height: auto;
 	height: 5%;
 }
 .table-loginn th 
 {
+	padding: 8px;
 	font-size: 5vw;
 	height: 31%;
 }
 
 .table-loginn td div
 {
-	margin-left: 10%;
-	margin-right: 10%;
-	/*background-color: red;*/
+	margin: 0 10%;
 	font-size: 4vh;
 }
+
 
 .table-loginn td div input
 {
@@ -86,29 +81,6 @@ table {
 	
 }
 
-
-input[type=submit] {
- 	color: #111;
-	width: 30%;
-	border-radius: 20px;
-	border-style: none;
-}
-
-input[type=submit]:hover {
- 	background-color: black;
-	color: white;
-}
-
-input[type=button] {
- 	color: #111;
-	width: 30%;
-	border-radius: 20px;
-	border-style: none;
-}
-
-input[type=button]:hover {
- 	background-color: #FC839D;
-}
 
 input[type=text] {
 	width: 100%;
@@ -121,6 +93,18 @@ input[type=password] {
 	border-radius: 5px;
 	border-style: none;
 	padding-left: 3vw;
+}
+
+input[type=submit] {
+ 	color: #111;
+	width: 30%;
+	border-radius: 20px;
+	border-style: none;
+}
+
+input[type=submit]:hover {
+ 	background-color: black;
+	color: white;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
