@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="132020422000403372" remote="132020422020000000" Dst="2" />
@@ -5,3 +6,6 @@
 <file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="132022224235861912" remote="132022224570000000" Dst="2" />
 <file name=".DS_Store" server="elevweb.akershus-fk.no/www_docs/" local="131967856747801469" remote="132012625240000000" Dst="2" />
 </dwsync>
+=======
+<?xml version="1.0" encoding="utf-8" ?><dwsync><file name="MyStyleAdmin.css" server="elevweb.akershus-fk.no/www_docs/" local="3640594251" remote="3641203097" Dst="2" /><file name="MyStyleKamp.css" server="elevweb.akershus-fk.no/www_docs/" local="3641642442" remote="3641642445" Dst="2" /><file name="MyStyleLogin.css" server="elevweb.akershus-fk.no/www_docs/" local="3641641534" remote="3641641540" Dst="2" /><file name=".DS_Store" server="elevweb.akershus-fk.no/www_docs/" local="131967856747801469" remote="132012625240000000" Dst="2" /></dwsync>
+>>>>>>> 51336043365d4b7be9d9e330674bdc175c2133f1
