@@ -20,6 +20,7 @@
 	  <li><a href="OppdaterOgSlett.php">Oppdater og slett</a></li>
 	  <li><a href="Registrering.php">Registrer nytt medlem</a></li>
 	  <li><a href="NyheterAdmin.php">Legg til nyheter</a></li>
+	  <li><a href="logout.php">Logg ut</a></li>
 	</ul>
 	<!--Navbar end -->
 	

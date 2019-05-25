@@ -47,7 +47,7 @@
 	
 	
 	<div id="iframe-container">
-		<iframe width="560" height="349" src="https://www.youtube.com/embed/h4WiCcdiaOc" allowfullscreen></iframe> 
+		<iframe src="https://www.youtube.com/embed/h4WiCcdiaOc" allowfullscreen></iframe> 
 	</div>
 	
 	<!--Wrapper end -->
