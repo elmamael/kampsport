@@ -6,7 +6,7 @@
 	<!--Navbar-->
 	
 	<nav>
-	  <label for="mob-dropChecked" id="mob-btn"></label>    
+	  <label for="mob-dropChecked" id="mobilknapp"></label>    
 	  <input type="checkbox" id="mob-dropChecked" role="button">
 	  <ul>
 		  <li><a href=""><?php echo $lang['about'] ?></a>
@@ -40,13 +40,13 @@
 		<div class="Velkommen">
 		<h1><?php echo $lang['welcome'] ?></h1>
 		<h2><?php echo $lang['arnis'] ?></h2>
-		<a href="#YTvideo"><img src="src/arrowsWhite.png" alt="arrows"></a>
+		<a href="#iframe-container"><img src="src/arrowsWhite.png" alt="arrows"></a>
 		</div>
 	</div>
 	
 	
 	
-	<div class="iframe-container" id="YTvideo">
+	<div id="iframe-container">
 		<iframe src="https://www.youtube.com/embed/h4WiCcdiaOc" allowfullscreen></iframe> 
 	</div>
 	

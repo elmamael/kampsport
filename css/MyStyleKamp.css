@@ -90,9 +90,8 @@ nav {
         background: black;
         font-family: Times New Roman;
         height: 15vh;
-        height: 94px;
         position: fixed;
-        width: 100%;
+        width: 100vw;
         z-index: 1;
 		top: 0;
     }
@@ -104,7 +103,7 @@ nav ul {
         list-style: none;
         padding: 0;
         margin: 0;   
-        height: 94px;     
+        height: 15vh;     
     }
     nav ul li {
         position: relative;
@@ -207,19 +206,22 @@ li a.active {
 	margin: 5vh auto 0;
 }
 
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-  display: block;
-  margin: 0 auto;
+#iframe-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin-top: 30vh;
+	
 } 
 
-.iframe-container iframe {
-  position: absolute;
-  width: 70%;
-  height: 70%;
-  margin-top: 18vh;
+#iframe-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65%;
+	height: 65%;
+	margin: 0 17.5%
 }
  
 
@@ -426,11 +428,12 @@ div.desc {
 	
 	
 @media only screen and (max-width: 600px) {
-      nav {
-            height: 9.5vh;
+     
+	nav {
+          height: 9.5vh;
 		  background: black;
         }
-        nav ul {
+ 	nav ul {
             display: block;
             height: 9.5vh;
             position: relative;
@@ -446,7 +449,7 @@ div.desc {
             top: -8.8vh;
 			width: 55px;
         }
-        #mob-btn {
+        #mobilknapp {
             background-image: url('https://www.shareicon.net/data/512x512/2017/05/09/885755_list_512x512.png');
             background-color: transparent;
             border: 0;
@@ -473,6 +476,12 @@ div.desc {
 			margin-top: 9.5vh;
 		}
 	
+	#iframe-container iframe {
+	width: 90%;
+	height: 90%;
+	margin: 0 5%;
+	}
+	
 	.lang {
 		margin-top: -6vh;
 		margin-right: 3vw;
@@ -482,4 +491,5 @@ div.desc {
 	.lang a img{
 		width: 40px;
 		height: 24px;
+	}
 	}
