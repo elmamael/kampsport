@@ -40,16 +40,16 @@
 		<div class="Velkommen">
 		<h1><?php echo $lang['welcome'] ?></h1>
 		<h2><?php echo $lang['arnis'] ?></h2>
-		<a href="#iframe-container"><img src="src/arrowsWhite.png" alt="arrows"></a>
+		<a href="#ytreyt"><img src="src/arrowsWhite.png" alt="arrows"></a>
 		</div>
 	</div>
 	
 	
-	
-	<div id="iframe-container">
-		<iframe src="https://www.youtube.com/embed/h4WiCcdiaOc" allowfullscreen></iframe> 
+	<div id="ytreyt">
+		<div id="indreyt">
+			<iframe src="https://www.youtube.com/embed/h4WiCcdiaOc" allowfullscreen></iframe> 
+		</div>
 	</div>
-	
 	<!--Wrapper end -->
 	
 	
