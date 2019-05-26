@@ -10,34 +10,29 @@ body {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25%;
+  width: 25vw;
+  height: 100vh;
   background-color: #0F0F0F;
   position: fixed;
-  height: 100%;
-  overflow: auto;
+  margin: 0;
+  padding: 0;
 }
 
 li a {
   display: block;
   color: white;
-  padding: 2vw 2vw;
+  padding: 4vh 2vw;
   text-decoration: none;
 }
 
-li a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
-li a:hover:not(.active) {
+li a:hover {
   background-color: #f9c534;
   color: black;
 }
 
 #logo{
-  width: 7vw;
+  width: 100px;
   height: auto;
   border-radius: 50%;
   margin: 2vw 0 2vw 8vw;
